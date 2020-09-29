@@ -1,0 +1,8 @@
+.time span{display:inline-block;width:40px;height: 20px;}
+#t{
+    color: red;
+    font-size: 300px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    }
+    #mo,#d,#h,#m,#s{text-align: center;}
