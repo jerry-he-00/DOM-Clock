@@ -22,7 +22,7 @@ function show(){
     document.getElementById("h").innerHTML=hour;
     document.getElementById("m").innerHTML=minute;
     document.getElementById("s").innerHTML=second;
-    document.getElementById("t").innerHTML=minute+":"+second;
+    document.getElementById("t").innerHTML=hour+":"+minute;
     setTimeout(show,1000);//定时器一直调用show()函数
     return "";
     }
